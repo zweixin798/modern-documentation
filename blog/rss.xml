@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>AI Core Docs Blog</title>
-        <link>https://zweixin798.github.io/modern-documentation/blog</link>
+        <link>https://zweixin798.github.io/modern-documentation/blog/</link>
         <description>AI Core Docs Blog</description>
         <lastBuildDate>Wed, 18 Mar 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,30 +10,30 @@
         <language>en</language>
         <item>
             <title><![CDATA[GPT-4o 模型上线更新日志]]></title>
-            <link>https://zweixin798.github.io/modern-documentation/blog/gpt-4o-release-notes</link>
-            <guid>https://zweixin798.github.io/modern-documentation/blog/gpt-4o-release-notes</guid>
+            <link>https://zweixin798.github.io/modern-documentation/blog/gpt-4o-release-notes/</link>
+            <guid>https://zweixin798.github.io/modern-documentation/blog/gpt-4o-release-notes/</guid>
             <pubDate>Wed, 18 Mar 2026 00:00:00 GMT</pubDate>
             <description><![CDATA[我们已在 AI Core 平台正式上线 GPT-4o 系列模型，并同步增强了多模态与函数调用体验。]]></description>
             <content:encoded><![CDATA[<p>我们已在 <strong>AI Core</strong> 平台正式上线 <strong>GPT-4o</strong> 系列模型，并同步增强了多模态与函数调用体验。</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="新增能力">新增能力<a href="https://zweixin798.github.io/modern-documentation/blog/gpt-4o-release-notes#%E6%96%B0%E5%A2%9E%E8%83%BD%E5%8A%9B" class="hash-link" aria-label="Direct link to 新增能力" title="Direct link to 新增能力" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="新增能力">新增能力<a href="https://zweixin798.github.io/modern-documentation/blog/gpt-4o-release-notes/#%E6%96%B0%E5%A2%9E%E8%83%BD%E5%8A%9B" class="hash-link" aria-label="Direct link to 新增能力" title="Direct link to 新增能力" translate="no">​</a></h2>
 <ul>
 <li class=""><strong>更强的对话质量</strong>：在长上下文下的指令遵循与表达更稳定。</li>
 <li class=""><strong>更顺滑的工具调用</strong>：函数调用（tool calls）输出更结构化，更适合与工作流编排结合。</li>
 <li class=""><strong>更友好的工程集成</strong>：API 兼容 <code>POST /v1/chat/completions</code>，更易迁移与替换。</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="兼容性说明">兼容性说明<a href="https://zweixin798.github.io/modern-documentation/blog/gpt-4o-release-notes#%E5%85%BC%E5%AE%B9%E6%80%A7%E8%AF%B4%E6%98%8E" class="hash-link" aria-label="Direct link to 兼容性说明" title="Direct link to 兼容性说明" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="兼容性说明">兼容性说明<a href="https://zweixin798.github.io/modern-documentation/blog/gpt-4o-release-notes/#%E5%85%BC%E5%AE%B9%E6%80%A7%E8%AF%B4%E6%98%8E" class="hash-link" aria-label="Direct link to 兼容性说明" title="Direct link to 兼容性说明" translate="no">​</a></h2>
 <ul>
 <li class=""><strong>API 路径</strong>：保持 <code>/v1/chat/completions</code>。</li>
 <li class=""><strong>参数</strong>：<code>messages</code>、<code>temperature</code>、<code>max_tokens</code> 等保持一致；新增/增强 <code>tools</code> 与 <code>tool_choice</code> 的使用体验。</li>
 <li class=""><strong>响应</strong>：在触发工具调用时，<code>finish_reason</code> 可能为 <code>tool_calls</code>，并返回 <code>tool_calls</code> 结构。</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="建议升级方式">建议升级方式<a href="https://zweixin798.github.io/modern-documentation/blog/gpt-4o-release-notes#%E5%BB%BA%E8%AE%AE%E5%8D%87%E7%BA%A7%E6%96%B9%E5%BC%8F" class="hash-link" aria-label="Direct link to 建议升级方式" title="Direct link to 建议升级方式" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="建议升级方式">建议升级方式<a href="https://zweixin798.github.io/modern-documentation/blog/gpt-4o-release-notes/#%E5%BB%BA%E8%AE%AE%E5%8D%87%E7%BA%A7%E6%96%B9%E5%BC%8F" class="hash-link" aria-label="Direct link to 建议升级方式" title="Direct link to 建议升级方式" translate="no">​</a></h2>
 <ol>
 <li class="">先在灰度环境切换 <code>model</code> 为 <code>gpt-4o</code> 或 <code>gpt-4o-mini</code>。</li>
 <li class="">对关键任务启用 <strong>结构化输出</strong>（JSON Schema）并添加校验。</li>
 <li class="">若你使用 RAG，请同时监控“检索命中率”和“引用一致性”，避免高召回但低相关导致误答。</li>
 </ol>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="下一步">下一步<a href="https://zweixin798.github.io/modern-documentation/blog/gpt-4o-release-notes#%E4%B8%8B%E4%B8%80%E6%AD%A5" class="hash-link" aria-label="Direct link to 下一步" title="Direct link to 下一步" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="下一步">下一步<a href="https://zweixin798.github.io/modern-documentation/blog/gpt-4o-release-notes/#%E4%B8%8B%E4%B8%80%E6%AD%A5" class="hash-link" aria-label="Direct link to 下一步" title="Direct link to 下一步" translate="no">​</a></h2>
 <ul>
 <li class="">我们会在后续版本补齐更多 SDK 示例与最佳实践（Prompt 规范、工具调用模式、RAG 评测方法）。</li>
 </ul>]]></content:encoded>
@@ -41,8 +41,8 @@
         </item>
         <item>
             <title><![CDATA[Welcome]]></title>
-            <link>https://zweixin798.github.io/modern-documentation/blog/welcome</link>
-            <guid>https://zweixin798.github.io/modern-documentation/blog/welcome</guid>
+            <link>https://zweixin798.github.io/modern-documentation/blog/welcome/</link>
+            <guid>https://zweixin798.github.io/modern-documentation/blog/welcome/</guid>
             <pubDate>Thu, 26 Aug 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[Docusaurus blogging features are powered by the blog plugin.]]></description>
             <content:encoded><![CDATA[<p><a href="https://docusaurus.io/docs/blog" target="_blank" rel="noopener noreferrer" class="">Docusaurus blogging features</a> are powered by the <a href="https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog" target="_blank" rel="noopener noreferrer" class="">blog plugin</a>.</p>
@@ -64,8 +64,8 @@
         </item>
         <item>
             <title><![CDATA[MDX Blog Post]]></title>
-            <link>https://zweixin798.github.io/modern-documentation/blog/mdx-blog-post</link>
-            <guid>https://zweixin798.github.io/modern-documentation/blog/mdx-blog-post</guid>
+            <link>https://zweixin798.github.io/modern-documentation/blog/mdx-blog-post/</link>
+            <guid>https://zweixin798.github.io/modern-documentation/blog/mdx-blog-post/</guid>
             <pubDate>Sun, 01 Aug 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[Blog posts support Docusaurus Markdown features, such as MDX.]]></description>
             <content:encoded><![CDATA[<p>Blog posts support <a href="https://docusaurus.io/docs/markdown-features" target="_blank" rel="noopener noreferrer" class="">Docusaurus Markdown features</a>, such as <a href="https://mdxjs.com/" target="_blank" rel="noopener noreferrer" class="">MDX</a>.</p>
@@ -78,8 +78,8 @@
         </item>
         <item>
             <title><![CDATA[Long Blog Post]]></title>
-            <link>https://zweixin798.github.io/modern-documentation/blog/long-blog-post</link>
-            <guid>https://zweixin798.github.io/modern-documentation/blog/long-blog-post</guid>
+            <link>https://zweixin798.github.io/modern-documentation/blog/long-blog-post/</link>
+            <guid>https://zweixin798.github.io/modern-documentation/blog/long-blog-post/</guid>
             <pubDate>Wed, 29 May 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[This is the summary of a very long blog post,]]></description>
             <content:encoded><![CDATA[<p>This is the summary of a very long blog post,</p>
@@ -105,8 +105,8 @@
         </item>
         <item>
             <title><![CDATA[First Blog Post]]></title>
-            <link>https://zweixin798.github.io/modern-documentation/blog/first-blog-post</link>
-            <guid>https://zweixin798.github.io/modern-documentation/blog/first-blog-post</guid>
+            <link>https://zweixin798.github.io/modern-documentation/blog/first-blog-post/</link>
+            <guid>https://zweixin798.github.io/modern-documentation/blog/first-blog-post/</guid>
             <pubDate>Tue, 28 May 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[Lorem ipsum dolor sit amet...]]></description>
             <content:encoded><![CDATA[<p>Lorem ipsum dolor sit amet...</p>
