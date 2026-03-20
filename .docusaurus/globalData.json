@@ -1,0 +1,127 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/modern-documentation/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/modern-documentation/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "intro",
+              "path": "/modern-documentation/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "prompt-engineering-guide",
+              "path": "/modern-documentation/docs/prompt-engineering-guide",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/congratulations",
+              "path": "/modern-documentation/docs/tutorial-basics/congratulations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/create-a-blog-post",
+              "path": "/modern-documentation/docs/tutorial-basics/create-a-blog-post",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/create-a-document",
+              "path": "/modern-documentation/docs/tutorial-basics/create-a-document",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/create-a-page",
+              "path": "/modern-documentation/docs/tutorial-basics/create-a-page",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/deploy-your-site",
+              "path": "/modern-documentation/docs/tutorial-basics/deploy-your-site",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/markdown-features",
+              "path": "/modern-documentation/docs/tutorial-basics/markdown-features",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-extras/manage-docs-versions",
+              "path": "/modern-documentation/docs/tutorial-extras/manage-docs-versions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-extras/translate-your-site",
+              "path": "/modern-documentation/docs/tutorial-extras/translate-your-site",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/tutorial---basics",
+              "path": "/modern-documentation/docs/category/tutorial---basics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/tutorial---extras",
+              "path": "/modern-documentation/docs/category/tutorial---extras",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/modern-documentation/docs/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    },
+    "api": {
+      "path": "/modern-documentation/api",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/modern-documentation/api",
+          "mainDocId": "index",
+          "docs": [
+            {
+              "id": "ai-core-api",
+              "path": "/modern-documentation/api/ai-core-api",
+              "sidebar": "apisidebar"
+            },
+            {
+              "id": "create-chat-completion",
+              "path": "/modern-documentation/api/create-chat-completion",
+              "sidebar": "apisidebar"
+            },
+            {
+              "id": "index",
+              "path": "/modern-documentation/api/",
+              "sidebar": "apisidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "apisidebar": {
+              "link": {
+                "path": "/modern-documentation/api/",
+                "label": "index"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

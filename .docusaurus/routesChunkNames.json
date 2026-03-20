@@ -1,0 +1,329 @@
+{
+  "/modern-documentation/blog/-7a5": {
+    "__comp": "a6aa9e1f",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "4a19dfb7"
+      },
+      {
+        "content": "7661071f"
+      },
+      {
+        "content": "f4f34a3a"
+      },
+      {
+        "content": "8717b14a"
+      },
+      {
+        "content": "925b3f96"
+      }
+    ],
+    "__props": "6c7fd2e6"
+  },
+  "/modern-documentation/blog/ai-core-docs-launch/-f86": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "content": "e273c56f"
+  },
+  "/modern-documentation/blog/archive/-842": {
+    "__comp": "9e4087bc",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "__props": "f75749ea"
+  },
+  "/modern-documentation/blog/authors/-9fe": {
+    "__comp": "621db11d",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "__props": "f94babb6"
+  },
+  "/modern-documentation/blog/authors/all-sebastien-lorber-articles/-4b9": {
+    "__comp": "33fc5bb8",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "items": [
+      {
+        "content": "7661071f"
+      },
+      {
+        "content": "f4f34a3a"
+      }
+    ],
+    "sidebar": "814f3328",
+    "__props": "11098914"
+  },
+  "/modern-documentation/blog/authors/yangshun/-e3a": {
+    "__comp": "33fc5bb8",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "items": [
+      {
+        "content": "7661071f"
+      },
+      {
+        "content": "8717b14a"
+      }
+    ],
+    "sidebar": "814f3328",
+    "__props": "75c908eb"
+  },
+  "/modern-documentation/blog/authors/zweixin-798/-26f": {
+    "__comp": "33fc5bb8",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "items": [
+      {
+        "content": "4a19dfb7"
+      },
+      {
+        "content": "925b3f96"
+      }
+    ],
+    "sidebar": "814f3328",
+    "__props": "a22ffeb1"
+  },
+  "/modern-documentation/blog/gpt-4o-release-notes/-f9c": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "content": "f29cb953"
+  },
+  "/modern-documentation/blog/long-blog-post/-a8d": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "content": "73664a40"
+  },
+  "/modern-documentation/blog/mdx-blog-post/-395": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "content": "59362658"
+  },
+  "/modern-documentation/blog/tags/-164": {
+    "__comp": "01a85c17",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "__props": "116989e7"
+  },
+  "/modern-documentation/blog/tags/changelog/-2df": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "4a19dfb7"
+      },
+      {
+        "content": "925b3f96"
+      }
+    ],
+    "__props": "eaf29539"
+  },
+  "/modern-documentation/blog/tags/docusaurus/-8b3": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "7661071f"
+      },
+      {
+        "content": "f4f34a3a"
+      },
+      {
+        "content": "8717b14a"
+      }
+    ],
+    "__props": "f0fa82ef"
+  },
+  "/modern-documentation/blog/tags/facebook/-fbe": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "7661071f"
+      }
+    ],
+    "__props": "4bc91691"
+  },
+  "/modern-documentation/blog/tags/hello/-44b": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "7661071f"
+      },
+      {
+        "content": "8717b14a"
+      }
+    ],
+    "__props": "700456e0"
+  },
+  "/modern-documentation/blog/welcome/-34c": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "content": "d9f32620"
+  },
+  "/modern-documentation/markdown-page/-add": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "393be207"
+  },
+  "/modern-documentation/api/-7c9": {
+    "__comp": "5e95c892",
+    "__context": {
+      "plugin": "360dc931"
+    }
+  },
+  "/modern-documentation/api/-dd6": {
+    "__comp": "a7bd4aaa",
+    "__props": "381016a8"
+  },
+  "/modern-documentation/api/-816": {
+    "__comp": "a94703ab"
+  },
+  "/modern-documentation/api/-29b": {
+    "__comp": "4c5e977b",
+    "content": "06fbd943"
+  },
+  "/modern-documentation/api/ai-core-api/-45c": {
+    "__comp": "4c5e977b",
+    "content": "b0b1cf8a"
+  },
+  "/modern-documentation/api/create-chat-completion/-d0f": {
+    "__comp": "4c5e977b",
+    "content": "2373be58"
+  },
+  "/modern-documentation/docs/-1a7": {
+    "__comp": "5e95c892",
+    "__context": {
+      "plugin": "aba21aa0"
+    }
+  },
+  "/modern-documentation/docs/-2c2": {
+    "__comp": "a7bd4aaa",
+    "__props": "b7f8a2bf"
+  },
+  "/modern-documentation/docs/-961": {
+    "__comp": "a94703ab"
+  },
+  "/modern-documentation/docs/category/tutorial---basics/-c35": {
+    "__comp": "14eb3368",
+    "__props": "b8e48010"
+  },
+  "/modern-documentation/docs/category/tutorial---extras/-d46": {
+    "__comp": "14eb3368",
+    "__props": "18e48501"
+  },
+  "/modern-documentation/docs/intro/-92e": {
+    "__comp": "17896441",
+    "content": "0e384e19"
+  },
+  "/modern-documentation/docs/prompt-engineering-guide/-3d4": {
+    "__comp": "17896441",
+    "content": "520c05b4"
+  },
+  "/modern-documentation/docs/tutorial-basics/congratulations/-0aa": {
+    "__comp": "17896441",
+    "content": "822bd8ab"
+  },
+  "/modern-documentation/docs/tutorial-basics/create-a-blog-post/-064": {
+    "__comp": "17896441",
+    "content": "533a09ca"
+  },
+  "/modern-documentation/docs/tutorial-basics/create-a-document/-a73": {
+    "__comp": "17896441",
+    "content": "1e4232ab"
+  },
+  "/modern-documentation/docs/tutorial-basics/create-a-page/-952": {
+    "__comp": "17896441",
+    "content": "5c868d36"
+  },
+  "/modern-documentation/docs/tutorial-basics/deploy-your-site/-55d": {
+    "__comp": "17896441",
+    "content": "f55d3e7a"
+  },
+  "/modern-documentation/docs/tutorial-basics/markdown-features/-4ac": {
+    "__comp": "17896441",
+    "content": "18c41134"
+  },
+  "/modern-documentation/docs/tutorial-extras/manage-docs-versions/-1fe": {
+    "__comp": "17896441",
+    "content": "dff1c289"
+  },
+  "/modern-documentation/docs/tutorial-extras/translate-your-site/-038": {
+    "__comp": "17896441",
+    "content": "e44a2883"
+  },
+  "/modern-documentation/-a11": {
+    "__comp": "c4f5d8e4",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "config": "5e9f5e1a"
+  }
+}

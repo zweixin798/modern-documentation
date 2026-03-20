@@ -1,0 +1,48 @@
+{
+  "permalink": "/modern-documentation/blog/ai-core-docs-launch",
+  "editUrl": "https://github.com/zweixin798/modern-documentation/tree/main/blog/2019-05-28-first-blog-post.md",
+  "source": "@site/blog/2019-05-28-first-blog-post.md",
+  "title": "AI Core Docs 文档体系正式上线",
+  "description": "我们正式上线了 AI Core Docs —— 一套为大模型 / AI 产品打造的现代化文档体系，包括：",
+  "date": "2019-05-28T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": false,
+      "label": "Changelog",
+      "permalink": "/modern-documentation/blog/tags/changelog",
+      "description": "Release notes and product updates"
+    }
+  ],
+  "readingTime": 1.76,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Zhang Weixin",
+      "title": "Maintainer",
+      "url": "https://github.com/zweixin798",
+      "page": {
+        "permalink": "/modern-documentation/blog/authors/zweixin-798"
+      },
+      "socials": {
+        "github": "https://github.com/zweixin798"
+      },
+      "imageURL": "https://github.com/zweixin798.png",
+      "key": "zweixin798"
+    }
+  ],
+  "frontMatter": {
+    "slug": "ai-core-docs-launch",
+    "title": "AI Core Docs 文档体系正式上线",
+    "authors": [
+      "zweixin798"
+    ],
+    "tags": [
+      "changelog"
+    ]
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Long Blog Post",
+    "permalink": "/modern-documentation/blog/long-blog-post"
+  }
+}

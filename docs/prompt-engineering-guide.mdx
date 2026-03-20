@@ -1,0 +1,40 @@
+---
+title: Prompt Engineering Guide
+sidebar_position: 2
+description: Learn practical prompt patterns, and how to reduce hallucinations.
+---
+
+import {Callout} from '@site/src/components/Callout';
+import {Feedback} from '@site/src/components/Feedback';
+
+Prompt engineering is the practice of designing inputs that help a model produce **reliable, useful, and controllable** outputs.
+
+## A simple baseline prompt
+
+When you ask a model for an answer, always include:
+
+- **Role / context**: what the assistant is.
+- **Task**: what you want.
+- **Constraints**: format, length, language, safety rules.
+- **Verification**: ask it to cite sources or list assumptions when needed.
+
+## Hallucination 101
+
+<Callout type="warning" title="Model hallucination (what it is)">
+  A hallucination is when a model generates content that **sounds plausible** but is **not grounded in facts**.
+  This is common when the prompt is ambiguous, the context is missing, or the model is forced to guess.
+</Callout>
+
+### How to reduce hallucinations
+
+- **Add grounding**: use RAG (retrieval-augmented generation) to provide authoritative context.
+- **Ask for uncertainty**: request the model to flag unknowns and list assumptions.
+- **Use structured outputs**: JSON schemas reduce free-form guessing.
+- **Keep context tight**: remove irrelevant instructions and long chat history.
+
+<Callout type="info" title="Tip: combine RAG + structured output">
+  In AI products, the most stable pattern is: retrieve relevant docs → inject into context → require JSON output.
+</Callout>
+
+<Feedback />
+

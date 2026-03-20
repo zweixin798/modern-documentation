@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>AI Core Docs Blog</title>
+        <link>https://zweixin798.github.io/modern-documentation/blog/</link>
+        <description>AI Core Docs Blog</description>
+        <lastBuildDate>Wed, 18 Mar 2026 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[GPT-4o 模型上线更新日志]]></title>
+            <link>https://zweixin798.github.io/modern-documentation/blog/gpt-4o-release-notes/</link>
+            <guid>https://zweixin798.github.io/modern-documentation/blog/gpt-4o-release-notes/</guid>
+            <pubDate>Wed, 18 Mar 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[我们已在 AI Core 平台正式上线 GPT-4o 系列模型，并同步增强了多模态与函数调用体验。]]></description>
+            <content:encoded><![CDATA[<p>我们已在 <strong>AI Core</strong> 平台正式上线 <strong>GPT-4o</strong> 系列模型，并同步增强了多模态与函数调用体验。</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="新增能力">新增能力<a href="https://zweixin798.github.io/modern-documentation/blog/gpt-4o-release-notes/#%E6%96%B0%E5%A2%9E%E8%83%BD%E5%8A%9B" class="hash-link" aria-label="Direct link to 新增能力" title="Direct link to 新增能力" translate="no">​</a></h2>
+<ul>
+<li class=""><strong>更强的对话质量</strong>：在长上下文下的指令遵循与表达更稳定。</li>
+<li class=""><strong>更顺滑的工具调用</strong>：函数调用（tool calls）输出更结构化，更适合与工作流编排结合。</li>
+<li class=""><strong>更友好的工程集成</strong>：API 兼容 <code>POST /v1/chat/completions</code>，更易迁移与替换。</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="兼容性说明">兼容性说明<a href="https://zweixin798.github.io/modern-documentation/blog/gpt-4o-release-notes/#%E5%85%BC%E5%AE%B9%E6%80%A7%E8%AF%B4%E6%98%8E" class="hash-link" aria-label="Direct link to 兼容性说明" title="Direct link to 兼容性说明" translate="no">​</a></h2>
+<ul>
+<li class=""><strong>API 路径</strong>：保持 <code>/v1/chat/completions</code>。</li>
+<li class=""><strong>参数</strong>：<code>messages</code>、<code>temperature</code>、<code>max_tokens</code> 等保持一致；新增/增强 <code>tools</code> 与 <code>tool_choice</code> 的使用体验。</li>
+<li class=""><strong>响应</strong>：在触发工具调用时，<code>finish_reason</code> 可能为 <code>tool_calls</code>，并返回 <code>tool_calls</code> 结构。</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="建议升级方式">建议升级方式<a href="https://zweixin798.github.io/modern-documentation/blog/gpt-4o-release-notes/#%E5%BB%BA%E8%AE%AE%E5%8D%87%E7%BA%A7%E6%96%B9%E5%BC%8F" class="hash-link" aria-label="Direct link to 建议升级方式" title="Direct link to 建议升级方式" translate="no">​</a></h2>
+<ol>
+<li class="">先在灰度环境切换 <code>model</code> 为 <code>gpt-4o</code> 或 <code>gpt-4o-mini</code>。</li>
+<li class="">对关键任务启用 <strong>结构化输出</strong>（JSON Schema）并添加校验。</li>
+<li class="">若你使用 RAG，请同时监控“检索命中率”和“引用一致性”，避免高召回但低相关导致误答。</li>
+</ol>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="下一步">下一步<a href="https://zweixin798.github.io/modern-documentation/blog/gpt-4o-release-notes/#%E4%B8%8B%E4%B8%80%E6%AD%A5" class="hash-link" aria-label="Direct link to 下一步" title="Direct link to 下一步" translate="no">​</a></h2>
+<ul>
+<li class="">我们会在后续版本补齐更多 SDK 示例与最佳实践（Prompt 规范、工具调用模式、RAG 评测方法）。</li>
+</ul>]]></content:encoded>
+            <category>Changelog</category>
+        </item>
+        <item>
+            <title><![CDATA[Welcome]]></title>
+            <link>https://zweixin798.github.io/modern-documentation/blog/welcome/</link>
+            <guid>https://zweixin798.github.io/modern-documentation/blog/welcome/</guid>
+            <pubDate>Thu, 26 Aug 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Docusaurus blogging features are powered by the blog plugin.]]></description>
+            <content:encoded><![CDATA[<p><a href="https://docusaurus.io/docs/blog" target="_blank" rel="noopener noreferrer" class="">Docusaurus blogging features</a> are powered by the <a href="https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog" target="_blank" rel="noopener noreferrer" class="">blog plugin</a>.</p>
+<p>Here are a few tips you might find useful.</p>
+<p>Simply add Markdown files (or folders) to the <code>blog</code> directory.</p>
+<p>Regular blog authors can be added to <code>authors.yml</code>.</p>
+<p>The blog post date can be extracted from filenames, such as:</p>
+<ul>
+<li class=""><code>2019-05-30-welcome.md</code></li>
+<li class=""><code>2019-05-30-welcome/index.md</code></li>
+</ul>
+<p>A blog post folder can be convenient to co-locate blog post images:</p>
+<p><img decoding="async" loading="lazy" alt="Docusaurus Plushie" src="https://zweixin798.github.io/modern-documentation/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500" class="img_ev3q"></p>
+<p>The blog supports tags as well!</p>
+<p><strong>And if you don't want a blog</strong>: just delete this directory, and use <code>blog: false</code> in your Docusaurus config.</p>]]></content:encoded>
+            <category>Facebook</category>
+            <category>Hello</category>
+            <category>Docusaurus</category>
+        </item>
+        <item>
+            <title><![CDATA[MDX Blog Post]]></title>
+            <link>https://zweixin798.github.io/modern-documentation/blog/mdx-blog-post/</link>
+            <guid>https://zweixin798.github.io/modern-documentation/blog/mdx-blog-post/</guid>
+            <pubDate>Sun, 01 Aug 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Blog posts support Docusaurus Markdown features, such as MDX.]]></description>
+            <content:encoded><![CDATA[<p>Blog posts support <a href="https://docusaurus.io/docs/markdown-features" target="_blank" rel="noopener noreferrer" class="">Docusaurus Markdown features</a>, such as <a href="https://mdxjs.com/" target="_blank" rel="noopener noreferrer" class="">MDX</a>.</p>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_BuS1"><p>Use the power of React to create interactive blog posts.</p></div></div>
+<!-- -->
+<p>For example, use JSX to create an interactive button:</p>
+<div class="language-js codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-js codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token operator" style="color:#393A34">&lt;</span><span class="token plain">button onClick</span><span class="token operator" style="color:#393A34">=</span><span class="token punctuation" style="color:#393A34">{</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token arrow operator" style="color:#393A34">=&gt;</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">alert</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">'button clicked!'</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">}</span><span class="token operator" style="color:#393A34">&gt;</span><span class="token maybe-class-name">Click</span><span class="token plain"> me</span><span class="token operator" style="color:#393A34">!</span><span class="token operator" style="color:#393A34">&lt;</span><span class="token operator" style="color:#393A34">/</span><span class="token plain">button</span><span class="token operator" style="color:#393A34">&gt;</span><br></span></code></pre></div></div>
+<button>Click me!</button>]]></content:encoded>
+            <category>Docusaurus</category>
+        </item>
+        <item>
+            <title><![CDATA[Long Blog Post]]></title>
+            <link>https://zweixin798.github.io/modern-documentation/blog/long-blog-post/</link>
+            <guid>https://zweixin798.github.io/modern-documentation/blog/long-blog-post/</guid>
+            <pubDate>Wed, 29 May 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[This is the summary of a very long blog post,]]></description>
+            <content:encoded><![CDATA[<p>This is the summary of a very long blog post,</p>
+<p>Use a <code>&lt;!--</code> <code>truncate</code> <code>--&gt;</code> comment to limit blog post size in the list view.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content:encoded>
+            <category>Hello</category>
+            <category>Docusaurus</category>
+        </item>
+        <item>
+            <title><![CDATA[AI Core Docs 文档体系正式上线]]></title>
+            <link>https://zweixin798.github.io/modern-documentation/blog/ai-core-docs-launch/</link>
+            <guid>https://zweixin798.github.io/modern-documentation/blog/ai-core-docs-launch/</guid>
+            <pubDate>Tue, 28 May 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[我们正式上线了 AI Core Docs —— 一套为大模型 / AI 产品打造的现代化文档体系，包括：]]></description>
+            <content:encoded><![CDATA[<p>我们正式上线了 <strong>AI Core Docs</strong> —— 一套为大模型 / AI 产品打造的现代化文档体系，包括：</p>
+<ul>
+<li class="">用户指南（Docs）</li>
+<li class="">开发者 API 参考（API）</li>
+<li class="">更新日志与运营内容（Blog）</li>
+</ul>
+<p>文档站点基于 <strong>Docusaurus v3 + Tailwind CSS + OpenAPI</strong> 搭建，完全遵循 <strong>Docs-as-Code</strong> 思路，所有内容都通过 Git + Pull Request 管理。</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="为什么要重做文档体系">为什么要重做文档体系？<a href="https://zweixin798.github.io/modern-documentation/blog/ai-core-docs-launch/#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E9%87%8D%E5%81%9A%E6%96%87%E6%A1%A3%E4%BD%93%E7%B3%BB" class="hash-link" aria-label="Direct link to 为什么要重做文档体系？" title="Direct link to 为什么要重做文档体系？" translate="no">​</a></h2>
+<ul>
+<li class=""><strong>大模型产品节奏快</strong>：能力更新频繁，传统 wiki 很难保持“最新可信”。</li>
+<li class=""><strong>开发者期望更高</strong>：需要清晰的 API 参考、示例代码和最佳实践，而不仅是零散说明。</li>
+<li class=""><strong>团队协作需要审计</strong>：变更记录、评审流程、回滚能力都需要基于代码化管理。</li>
+</ul>
+<p>因此我们选择：</p>
+<ul>
+<li class="">用 <strong>Docusaurus v3</strong> 做文档框架；</li>
+<li class="">用 <strong>Tailwind CSS</strong> 做 UI 组件和布局；</li>
+<li class="">用 <strong>OpenAPI</strong> 自动生成 API 参考；</li>
+<li class="">用 <strong>GitHub Pages</strong> 做静态部署。</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="文档站点结构一览">文档站点结构一览<a href="https://zweixin798.github.io/modern-documentation/blog/ai-core-docs-launch/#%E6%96%87%E6%A1%A3%E7%AB%99%E7%82%B9%E7%BB%93%E6%9E%84%E4%B8%80%E8%A7%88" class="hash-link" aria-label="Direct link to 文档站点结构一览" title="Direct link to 文档站点结构一览" translate="no">​</a></h2>
+<ul>
+<li class=""><code>/docs</code>：用户指南与产品手册<!-- -->
+<ul>
+<li class="">Quickstart（快速开始）</li>
+<li class="">Concepts（核心概念：RAG / Prompt Engineering 等）</li>
+<li class="">FAQ（常见问题与排错）</li>
+</ul>
+</li>
+<li class=""><code>/api</code>：基于 <code>openapi.yaml</code> 生成的三栏 API 参考<!-- -->
+<ul>
+<li class="">左侧导航（按 Tag 分组）</li>
+<li class="">中间参数与响应说明</li>
+<li class="">右侧请求代码示例</li>
+</ul>
+</li>
+<li class=""><code>/blog</code>：更新日志与运营内容<!-- -->
+<ul>
+<li class=""><code>Changelog</code> 标签用于记录版本演进</li>
+<li class="">后续会加入使用案例、最佳实践文章</li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="docs-as-code-工作流">Docs-as-Code 工作流<a href="https://zweixin798.github.io/modern-documentation/blog/ai-core-docs-launch/#docs-as-code-%E5%B7%A5%E4%BD%9C%E6%B5%81" class="hash-link" aria-label="Direct link to Docs-as-Code 工作流" title="Direct link to Docs-as-Code 工作流" translate="no">​</a></h2>
+<ul>
+<li class="">文档内容全部存放在仓库中：<!-- -->
+<ul>
+<li class=""><code>docs/</code>：MDX 文档</li>
+<li class=""><code>blog/</code>：博客与更新日志</li>
+<li class=""><code>openapi.yaml</code>：API 描述</li>
+</ul>
+</li>
+<li class="">通过 Pull Request 进行评审：<!-- -->
+<ul>
+<li class="">文档改动与代码改动走同一套流程</li>
+<li class="">支持 review、comment、变更记录与回滚</li>
+</ul>
+</li>
+<li class="">部署自动化：<!-- -->
+<ul>
+<li class="">本地：<code>npm run start</code></li>
+<li class="">预览：<code>npm run build &amp;&amp; npm run serve</code></li>
+<li class="">线上：<code>npm run deploy</code></li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="接下来我们会做什么">接下来我们会做什么？<a href="https://zweixin798.github.io/modern-documentation/blog/ai-core-docs-launch/#%E6%8E%A5%E4%B8%8B%E6%9D%A5%E6%88%91%E4%BB%AC%E4%BC%9A%E5%81%9A%E4%BB%80%E4%B9%88" class="hash-link" aria-label="Direct link to 接下来我们会做什么？" title="Direct link to 接下来我们会做什么？" translate="no">​</a></h2>
+<ul>
+<li class="">补充完整的 <strong>Quickstart</strong> 与 <strong>RAG / Prompt Engineering 指南</strong></li>
+<li class="">基于真实后端 OpenAPI 替换当前 Mock <code>openapi.yaml</code></li>
+<li class="">输出更多贴合业务的 <strong>案例文章</strong> 和 <strong>最佳实践</strong></li>
+</ul>
+<p>欢迎你把任何文档改进建议以 Issue 或 PR 的形式提交给我们。<br>
+<!-- -->这份文档站点本身，也会持续迭代。</p>]]></content:encoded>
+            <category>Changelog</category>
+        </item>
+    </channel>
+</rss>

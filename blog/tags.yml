@@ -17,3 +17,8 @@ hola:
   label: Hola
   permalink: /hola
   description: Hola tag description
+
+changelog:
+  label: Changelog
+  permalink: /changelog
+  description: Release notes and product updates

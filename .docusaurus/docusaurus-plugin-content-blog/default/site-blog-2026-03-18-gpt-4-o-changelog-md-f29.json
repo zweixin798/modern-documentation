@@ -1,0 +1,48 @@
+{
+  "permalink": "/modern-documentation/blog/gpt-4o-release-notes",
+  "editUrl": "https://github.com/zweixin798/modern-documentation/tree/main/blog/2026-03-18-gpt-4o-changelog.md",
+  "source": "@site/blog/2026-03-18-gpt-4o-changelog.md",
+  "title": "GPT-4o 模型上线更新日志",
+  "description": "我们已在 AI Core 平台正式上线 GPT-4o 系列模型，并同步增强了多模态与函数调用体验。",
+  "date": "2026-03-18T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": false,
+      "label": "Changelog",
+      "permalink": "/modern-documentation/blog/tags/changelog",
+      "description": "Release notes and product updates"
+    }
+  ],
+  "readingTime": 1,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Zhang Weixin",
+      "title": "Maintainer",
+      "url": "https://github.com/zweixin798",
+      "page": {
+        "permalink": "/modern-documentation/blog/authors/zweixin-798"
+      },
+      "socials": {
+        "github": "https://github.com/zweixin798"
+      },
+      "imageURL": "https://github.com/zweixin798.png",
+      "key": "zweixin798"
+    }
+  ],
+  "frontMatter": {
+    "slug": "gpt-4o-release-notes",
+    "title": "GPT-4o 模型上线更新日志",
+    "authors": [
+      "zweixin798"
+    ],
+    "tags": [
+      "changelog"
+    ]
+  },
+  "unlisted": false,
+  "nextItem": {
+    "title": "Welcome",
+    "permalink": "/modern-documentation/blog/welcome"
+  }
+}

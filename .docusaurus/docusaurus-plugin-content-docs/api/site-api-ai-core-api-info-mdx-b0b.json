@@ -1,0 +1,33 @@
+{
+  "id": "ai-core-api",
+  "title": "AI Core API",
+  "description": "Mock OpenAPI spec for AI Core Docs demo.",
+  "source": "@site/api/ai-core-api.info.mdx",
+  "sourceDirName": ".",
+  "slug": "/ai-core-api",
+  "permalink": "/modern-documentation/api/ai-core-api",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": null,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "id": "ai-core-api",
+    "title": "AI Core API",
+    "description": "Mock OpenAPI spec for AI Core Docs demo.",
+    "sidebar_label": "Introduction",
+    "sidebar_position": 0,
+    "hide_title": true,
+    "custom_edit_url": null
+  },
+  "sidebar": "apisidebar",
+  "previous": {
+    "title": "API Reference",
+    "permalink": "/modern-documentation/api/"
+  },
+  "next": {
+    "title": "Create a chat completion",
+    "permalink": "/modern-documentation/api/create-chat-completion"
+  }
+}

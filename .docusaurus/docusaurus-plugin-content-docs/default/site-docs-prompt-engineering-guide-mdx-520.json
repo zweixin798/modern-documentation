@@ -1,0 +1,29 @@
+{
+  "id": "prompt-engineering-guide",
+  "title": "Prompt Engineering Guide",
+  "description": "Learn practical prompt patterns, and how to reduce hallucinations.",
+  "source": "@site/docs/prompt-engineering-guide.mdx",
+  "sourceDirName": ".",
+  "slug": "/prompt-engineering-guide",
+  "permalink": "/modern-documentation/docs/prompt-engineering-guide",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/zweixin798/modern-documentation/tree/main/docs/prompt-engineering-guide.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Prompt Engineering Guide",
+    "sidebar_position": 2,
+    "description": "Learn practical prompt patterns, and how to reduce hallucinations."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Tutorial Intro",
+    "permalink": "/modern-documentation/docs/intro"
+  },
+  "next": {
+    "title": "Tutorial - Basics",
+    "permalink": "/modern-documentation/docs/category/tutorial---basics"
+  }
+}

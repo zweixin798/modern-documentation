@@ -23,3 +23,12 @@ slorber:
     linkedin: sebastienlorber
     github: slorber
     newsletter: https://thisweekinreact.com
+
+zweixin798:
+  name: Zhang Weixin
+  title: Maintainer
+  url: https://github.com/zweixin798
+  image_url: https://github.com/zweixin798.png
+  page: true
+  socials:
+    github: zweixin798
