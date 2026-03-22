@@ -14,14 +14,5 @@
   "sidebarPosition": 3,
   "frontMatter": {
     "sidebar_position": 3
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Create a Document",
-    "permalink": "/modern-documentation/docs/tutorial-basics/create-a-document"
-  },
-  "next": {
-    "title": "Markdown Features",
-    "permalink": "/modern-documentation/docs/tutorial-basics/markdown-features"
   }
 }

@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkai_core_docs=globalThis.webpackChunkai_core_docs||[]).push([[523],{2072(o){o.exports=JSON.parse('{"metadata":{"permalink":"/modern-documentation/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

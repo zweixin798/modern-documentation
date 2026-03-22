@@ -11,64 +11,74 @@
           "mainDocId": "intro",
           "docs": [
             {
+              "id": "concepts/ai-workflow",
+              "path": "/modern-documentation/docs/concepts/ai-workflow",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "concepts/token-economics",
+              "path": "/modern-documentation/docs/concepts/token-economics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "concepts/user-behavior",
+              "path": "/modern-documentation/docs/concepts/user-behavior",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "faq/common-issues",
+              "path": "/modern-documentation/docs/faq/common-issues",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "intro",
               "path": "/modern-documentation/docs/intro",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "prompt-engineering-guide",
-              "path": "/modern-documentation/docs/prompt-engineering-guide",
+              "path": "/modern-documentation/docs/prompt-engineering-guide"
+            },
+            {
+              "id": "quickstart/quickstart",
+              "path": "/modern-documentation/docs/quickstart/",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "tutorial-basics/congratulations",
-              "path": "/modern-documentation/docs/tutorial-basics/congratulations",
-              "sidebar": "tutorialSidebar"
+              "path": "/modern-documentation/docs/tutorial-basics/congratulations"
             },
             {
               "id": "tutorial-basics/create-a-blog-post",
-              "path": "/modern-documentation/docs/tutorial-basics/create-a-blog-post",
-              "sidebar": "tutorialSidebar"
+              "path": "/modern-documentation/docs/tutorial-basics/create-a-blog-post"
             },
             {
               "id": "tutorial-basics/create-a-document",
-              "path": "/modern-documentation/docs/tutorial-basics/create-a-document",
-              "sidebar": "tutorialSidebar"
+              "path": "/modern-documentation/docs/tutorial-basics/create-a-document"
             },
             {
               "id": "tutorial-basics/create-a-page",
-              "path": "/modern-documentation/docs/tutorial-basics/create-a-page",
-              "sidebar": "tutorialSidebar"
+              "path": "/modern-documentation/docs/tutorial-basics/create-a-page"
             },
             {
               "id": "tutorial-basics/deploy-your-site",
-              "path": "/modern-documentation/docs/tutorial-basics/deploy-your-site",
-              "sidebar": "tutorialSidebar"
+              "path": "/modern-documentation/docs/tutorial-basics/deploy-your-site"
             },
             {
               "id": "tutorial-basics/markdown-features",
-              "path": "/modern-documentation/docs/tutorial-basics/markdown-features",
-              "sidebar": "tutorialSidebar"
+              "path": "/modern-documentation/docs/tutorial-basics/markdown-features"
             },
             {
               "id": "tutorial-extras/manage-docs-versions",
-              "path": "/modern-documentation/docs/tutorial-extras/manage-docs-versions",
-              "sidebar": "tutorialSidebar"
+              "path": "/modern-documentation/docs/tutorial-extras/manage-docs-versions"
             },
             {
               "id": "tutorial-extras/translate-your-site",
-              "path": "/modern-documentation/docs/tutorial-extras/translate-your-site",
-              "sidebar": "tutorialSidebar"
+              "path": "/modern-documentation/docs/tutorial-extras/translate-your-site"
             },
             {
-              "id": "/category/tutorial---basics",
-              "path": "/modern-documentation/docs/category/tutorial---basics",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/tutorial---extras",
-              "path": "/modern-documentation/docs/category/tutorial---extras",
-              "sidebar": "tutorialSidebar"
+              "id": "vibe-coding-guide",
+              "path": "/modern-documentation/docs/vibe-coding-guide"
             }
           ],
           "draftIds": [],
@@ -77,45 +87,6 @@
               "link": {
                 "path": "/modern-documentation/docs/intro",
                 "label": "intro"
-              }
-            }
-          }
-        }
-      ],
-      "breadcrumbs": true
-    },
-    "api": {
-      "path": "/modern-documentation/api",
-      "versions": [
-        {
-          "name": "current",
-          "label": "Next",
-          "isLast": true,
-          "path": "/modern-documentation/api",
-          "mainDocId": "index",
-          "docs": [
-            {
-              "id": "ai-core-api",
-              "path": "/modern-documentation/api/ai-core-api",
-              "sidebar": "apisidebar"
-            },
-            {
-              "id": "create-chat-completion",
-              "path": "/modern-documentation/api/create-chat-completion",
-              "sidebar": "apisidebar"
-            },
-            {
-              "id": "index",
-              "path": "/modern-documentation/api/",
-              "sidebar": "apisidebar"
-            }
-          ],
-          "draftIds": [],
-          "sidebars": {
-            "apisidebar": {
-              "link": {
-                "path": "/modern-documentation/api/",
-                "label": "index"
               }
             }
           }

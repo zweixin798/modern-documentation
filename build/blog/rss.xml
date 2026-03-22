@@ -2,38 +2,148 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>AI Core Docs Blog</title>
-        <link>https://zweixin798.github.io/modern-documentation/blog/</link>
+        <link>https://zweixin798.github.io/modern-documentation/blog</link>
         <description>AI Core Docs Blog</description>
-        <lastBuildDate>Wed, 18 Mar 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 22 Mar 2026 08:42:45 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
+            <title><![CDATA[🛠️ Vibe Coding 主流工具特性全集]]></title>
+            <link>https://zweixin798.github.io/modern-documentation/blog/vibecoding工具intro</link>
+            <guid>https://zweixin798.github.io/modern-documentation/blog/vibecoding工具intro</guid>
+            <pubDate>Sun, 22 Mar 2026 08:42:45 GMT</pubDate>
+            <description><![CDATA[本指南旨在帮助您快速了解当前最热门的 AI 编程（Vibe Coding）工具，并根据您的实际需求选择最合适的“法杖”。]]></description>
+            <content:encoded><![CDATA[<p>本指南旨在帮助您快速了解当前最热门的 AI 编程（Vibe Coding）工具，并根据您的实际需求选择最合适的“法杖”。</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-核心工具概览表">1. 核心工具概览表<a href="https://zweixin798.github.io/modern-documentation/blog/vibecoding%E5%B7%A5%E5%85%B7intro#1-%E6%A0%B8%E5%BF%83%E5%B7%A5%E5%85%B7%E6%A6%82%E8%A7%88%E8%A1%A8" class="hash-link" aria-label="Direct link to 1. 核心工具概览表" title="Direct link to 1. 核心工具概览表" translate="no">​</a></h2>
+<table><thead><tr><th style="text-align:left">工具名称</th><th style="text-align:left">核心定位</th><th style="text-align:left">推荐指数</th><th style="text-align:left">核心 Vibe (调性)</th></tr></thead><tbody><tr><td style="text-align:left"><strong>Lovable</strong></td><td style="text-align:left">全栈应用“变现”神器</td><td style="text-align:left">⭐⭐⭐⭐⭐</td><td style="text-align:left">“我不仅要代码，我还要一个能跑的 App。”</td></tr><tr><td style="text-align:left"><strong>Cursor</strong></td><td style="text-align:left">AI 增强型代码编辑器</td><td style="text-align:left">⭐⭐⭐⭐⭐</td><td style="text-align:left">“我是指挥家，AI 是我的天才副手。”</td></tr><tr><td style="text-align:left"><strong>Bolt.new</strong></td><td style="text-align:left">浏览器全栈开发环境</td><td style="text-align:left">⭐⭐⭐⭐</td><td style="text-align:left">“随开随用，一句话生成全栈网页。”</td></tr><tr><td style="text-align:left"><strong>v0.dev</strong></td><td style="text-align:left">UI/UX 视觉先锋</td><td style="text-align:left">⭐⭐⭐⭐</td><td style="text-align:left">“把我的想法翻译成顶级的设计稿。”</td></tr><tr><td style="text-align:left"><strong>Windsurf</strong></td><td style="text-align:left">极致上下文流编辑器</td><td style="text-align:left">⭐⭐⭐⭐</td><td style="text-align:left">“AI 懂我写的每一行代码和逻辑流。”</td></tr></tbody></table>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-深度特点拆解">2. 深度特点拆解<a href="https://zweixin798.github.io/modern-documentation/blog/vibecoding%E5%B7%A5%E5%85%B7intro#2-%E6%B7%B1%E5%BA%A6%E7%89%B9%E7%82%B9%E6%8B%86%E8%A7%A3" class="hash-link" aria-label="Direct link to 2. 深度特点拆解" title="Direct link to 2. 深度特点拆解" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-lovable--全能的产品经理">🎨 Lovable —— “全能的产品经理”<a href="https://zweixin798.github.io/modern-documentation/blog/vibecoding%E5%B7%A5%E5%85%B7intro#-lovable--%E5%85%A8%E8%83%BD%E7%9A%84%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86" class="hash-link" aria-label="Direct link to 🎨 Lovable —— “全能的产品经理”" title="Direct link to 🎨 Lovable —— “全能的产品经理”" translate="no">​</a></h3>
+<p>Lovable 是目前将“自然语言”转化为“可运行产品”完成度最高的工具。</p>
+<ul>
+<li class=""><strong>数据库集成</strong>：原生支持 Supabase，能自动创建数据表、处理用户登录。</li>
+<li class=""><strong>设计感极强</strong>：生成的界面通常非常精美，符合现代审美。</li>
+<li class=""><strong>GitHub 同步</strong>：支持代码导出和同步，不锁定用户。</li>
+<li class=""><strong>适用场景</strong>：快速开发 MVP（最小可行性产品）、带后台数据存储的管理系统。</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-cursor--程序员的重型武器">💻 Cursor —— “程序员的重型武器”<a href="https://zweixin798.github.io/modern-documentation/blog/vibecoding%E5%B7%A5%E5%85%B7intro#-cursor--%E7%A8%8B%E5%BA%8F%E5%91%98%E7%9A%84%E9%87%8D%E5%9E%8B%E6%AD%A6%E5%99%A8" class="hash-link" aria-label="Direct link to 💻 Cursor ��—— “程序员的重型武器”" title="Direct link to 💻 Cursor —— “程序员的重型武器”" translate="no">​</a></h3>
+<p>基于 VS Code 深度定制，它是目前开发者圈子中 Vibe Coding 的绝对标杆。</p>
+<ul>
+<li class=""><strong>Composer 模式</strong>：可以跨文件同时修改代码，完美理解整个项目的架构。</li>
+<li class=""><strong>智能补全 (Tab)</strong>：预测你下一步要写什么，甚至能根据你的编程习惯重构逻辑。</li>
+<li class=""><strong>代码对话</strong>：你可以针对某一段特定的 Bug 疯狂“调教”AI 直到彻底修好。</li>
+<li class=""><strong>适用场景</strong>：长期维护的复杂项目、算法开发、想要深入学习代码逻辑的玩家。</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-boltnew--极速的原型实验场">⚡ Bolt.new —— “极速的原型实验场”<a href="https://zweixin798.github.io/modern-documentation/blog/vibecoding%E5%B7%A5%E5%85%B7intro#-boltnew--%E6%9E%81%E9%80%9F%E7%9A%84%E5%8E%9F%E5%9E%8B%E5%AE%9E%E9%AA%8C%E5%9C%BA" class="hash-link" aria-label="Direct link to ⚡ Bolt.new —— “极速的原型实验场”" title="Direct link to ⚡ Bolt.new —— “极速的原型实验场”" translate="no">​</a></h3>
+<p>由 StackBlitz 出品，完全运行在浏览器中，省去了安装环境的烦恼。</p>
+<ul>
+<li class=""><strong>全栈支持</strong>：不仅是前端，连 Node.js 后端也能一并生成。</li>
+<li class=""><strong>WebContainer 技术</strong>：直接在浏览器里运行终端和服务器，实现“所见即所得”。</li>
+<li class=""><strong>适用场景</strong>：快速验证一个想法、做简单的自动化办公工具。</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-v0dev--视觉与交互的巅峰">✨ v0.dev —— “视觉与交互的巅峰”<a href="https://zweixin798.github.io/modern-documentation/blog/vibecoding%E5%B7%A5%E5%85%B7intro#-v0dev--%E8%A7%86%E8%A7%89%E4%B8%8E%E4%BA%A4%E4%BA%92%E7%9A%84%E5%B7%85%E5%B3%B0" class="hash-link" aria-label="Direct link to ✨ v0.dev —— “视觉与交互的巅峰”" title="Direct link to ✨ v0.dev —— “视觉与交互的巅峰”" translate="no">​</a></h3>
+<p>Vercel 旗下的工具，主要针对 React、Tailwind CSS 和 Shadcn UI 组件库。</p>
+<ul>
+<li class=""><strong>复制即用</strong>：生成的 UI 组件代码极其干净，可以直接贴进现有项目中使用。</li>
+<li class=""><strong>版本演进</strong>：支持对同一界面进行多次版本迭代，微调视觉细节和交互手感。</li>
+<li class=""><strong>适用场景</strong>：需要极高颜值的官网首页、复杂的交互式 UI 组件设计。</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="3-如何选择适合你的工具">3. 如何选择适合你的工具？<a href="https://zweixin798.github.io/modern-documentation/blog/vibecoding%E5%B7%A5%E5%85%B7intro#3-%E5%A6%82%E4%BD%95%E9%80%89%E6%8B%A9%E9%80%82%E5%90%88%E4%BD%A0%E7%9A%84%E5%B7%A5%E5%85%B7" class="hash-link" aria-label="Direct link to 3. 如何选择适合你的工具？" title="Direct link to 3. 如何选择适合你的工具？" translate="no">​</a></h2>
+<ul>
+<li class=""><strong>场景一：我完全不懂技术，想做一个能存数据的 App</strong>
+<ul>
+<li class="">👉 <strong>首选：Lovable</strong></li>
+<li class=""><em>理由：它帮你处理了最头疼的数据库配置和服务器部署问题。</em></li>
+</ul>
+</li>
+<li class=""><strong>场景二：我想通过 AI 辅助，正儿八经地写一个大型程序</strong>
+<ul>
+<li class="">👉 <strong>首选：Cursor</strong></li>
+<li class=""><em>理由：它是目前最强力的代码助手，能极大提升你的生产效率。</em></li>
+</ul>
+</li>
+<li class=""><strong>场景三：我就想做一个漂亮的前端页面，不涉及复杂后台逻辑</strong>
+<ul>
+<li class="">👉 <strong>首选：v0.dev</strong></li>
+<li class=""><em>理由：审美极度在线，生成的组件代码质量符合工业级标准。</em></li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="4-vibe-coding-成功三要素">4. Vibe Coding 成功三要素<a href="https://zweixin798.github.io/modern-documentation/blog/vibecoding%E5%B7%A5%E5%85%B7intro#4-vibe-coding-%E6%88%90%E5%8A%9F%E4%B8%89%E8%A6%81%E7%B4%A0" class="hash-link" aria-label="Direct link to 4. Vibe Coding 成功三要素" title="Direct link to 4. Vibe Coding 成功三要素" translate="no">​</a></h2>
+<p>无论你选择哪个工具，请记住这个万能公式：</p>
+<p>$$结果 = 结构化 Prompt + 持续的反馈迭代 + 基本的逻辑判断$$</p>
+<ol>
+<li class=""><strong>结构化 Prompt</strong>：清晰地告诉 AI 目标、输入、输出和具体的限制条件。</li>
+<li class=""><strong>持续迭代</strong>：不要指望 AI 一次就能写对，通过不断“反馈-修正”让 AI 逼近你的想法。</li>
+<li class=""><strong>逻辑判断</strong>：你虽然不需要精通代码语法，但你要能看懂功能是否跑通，逻辑是否合理。</li>
+</ol>
+<hr>
+<blockquote>
+<p><strong>💡 建议：</strong> 如果你是刚入门的 Vibe Coder，可以先从 <strong>Lovable</strong> 或 <strong>Bolt.new</strong> 开始感受“一秒上线”的快乐，再逐步过渡到 <strong>Cursor</strong> 进行深度创作。</p>
+</blockquote>
+<p><code>&lt;!-- truncate --&gt;</code></p>]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[GPT-4o 模型上线更新日志]]></title>
-            <link>https://zweixin798.github.io/modern-documentation/blog/gpt-4o-release-notes/</link>
-            <guid>https://zweixin798.github.io/modern-documentation/blog/gpt-4o-release-notes/</guid>
-            <pubDate>Wed, 18 Mar 2026 00:00:00 GMT</pubDate>
+            <link>https://zweixin798.github.io/modern-documentation/blog/gpt-4o-release-notes</link>
+            <guid>https://zweixin798.github.io/modern-documentation/blog/gpt-4o-release-notes</guid>
+            <pubDate>Thu, 19 Mar 2026 00:00:00 GMT</pubDate>
             <description><![CDATA[我们已在 AI Core 平台正式上线 GPT-4o 系列模型，并同步增强了多模态与函数调用体验。]]></description>
             <content:encoded><![CDATA[<p>我们已在 <strong>AI Core</strong> 平台正式上线 <strong>GPT-4o</strong> 系列模型，并同步增强了多模态与函数调用体验。</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="新增能力">新增能力<a href="https://zweixin798.github.io/modern-documentation/blog/gpt-4o-release-notes/#%E6%96%B0%E5%A2%9E%E8%83%BD%E5%8A%9B" class="hash-link" aria-label="Direct link to 新增能力" title="Direct link to 新增能力" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="新增能力">新增能力<a href="https://zweixin798.github.io/modern-documentation/blog/gpt-4o-release-notes#%E6%96%B0%E5%A2%9E%E8%83%BD%E5%8A%9B" class="hash-link" aria-label="Direct link to 新增能力" title="Direct link to 新增能力" translate="no">​</a></h2>
 <ul>
 <li class=""><strong>更强的对话质量</strong>：在长上下文下的指令遵循与表达更稳定。</li>
 <li class=""><strong>更顺滑的工具调用</strong>：函数调用（tool calls）输出更结构化，更适合与工作流编排结合。</li>
 <li class=""><strong>更友好的工程集成</strong>：API 兼容 <code>POST /v1/chat/completions</code>，更易迁移与替换。</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="兼容性说明">兼容性说明<a href="https://zweixin798.github.io/modern-documentation/blog/gpt-4o-release-notes/#%E5%85%BC%E5%AE%B9%E6%80%A7%E8%AF%B4%E6%98%8E" class="hash-link" aria-label="Direct link to 兼容性说明" title="Direct link to 兼容性说明" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="兼容性说明">兼容性说明<a href="https://zweixin798.github.io/modern-documentation/blog/gpt-4o-release-notes#%E5%85%BC%E5%AE%B9%E6%80%A7%E8%AF%B4%E6%98%8E" class="hash-link" aria-label="Direct link to 兼容性说明" title="Direct link to 兼容性说明" translate="no">​</a></h2>
 <ul>
 <li class=""><strong>API 路径</strong>：保持 <code>/v1/chat/completions</code>。</li>
 <li class=""><strong>参数</strong>：<code>messages</code>、<code>temperature</code>、<code>max_tokens</code> 等保持一致；新增/增强 <code>tools</code> 与 <code>tool_choice</code> 的使用体验。</li>
 <li class=""><strong>响应</strong>：在触发工具调用时，<code>finish_reason</code> 可能为 <code>tool_calls</code>，并返回 <code>tool_calls</code> 结构。</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="建议升级方式">建议升级方式<a href="https://zweixin798.github.io/modern-documentation/blog/gpt-4o-release-notes/#%E5%BB%BA%E8%AE%AE%E5%8D%87%E7%BA%A7%E6%96%B9%E5%BC%8F" class="hash-link" aria-label="Direct link to 建议升级方式" title="Direct link to 建议升级方式" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="建议升级方式">建议升级方式<a href="https://zweixin798.github.io/modern-documentation/blog/gpt-4o-release-notes#%E5%BB%BA%E8%AE%AE%E5%8D%87%E7%BA%A7%E6%96%B9%E5%BC%8F" class="hash-link" aria-label="Direct link to 建议升级方式" title="Direct link to 建议升级方式" translate="no">​</a></h2>
 <ol>
 <li class="">先在灰度环境切换 <code>model</code> 为 <code>gpt-4o</code> 或 <code>gpt-4o-mini</code>。</li>
 <li class="">对关键任务启用 <strong>结构化输出</strong>（JSON Schema）并添加校验。</li>
 <li class="">若你使用 RAG，请同时监控“检索命中率”和“引用一致性”，避免高召回但低相关导致误答。</li>
 </ol>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="下一步">下一步<a href="https://zweixin798.github.io/modern-documentation/blog/gpt-4o-release-notes/#%E4%B8%8B%E4%B8%80%E6%AD%A5" class="hash-link" aria-label="Direct link to 下一步" title="Direct link to 下一步" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="下一步">下一步<a href="https://zweixin798.github.io/modern-documentation/blog/gpt-4o-release-notes#%E4%B8%8B%E4%B8%80%E6%AD%A5" class="hash-link" aria-label="Direct link to 下一步" title="Direct link to 下一步" translate="no">​</a></h2>
+<ul>
+<li class="">我们会在后续版本补齐更多 SDK 示例与最佳实践（Prompt 规范、工具调用模式、RAG 评测方法）。</li>
+</ul>]]></content:encoded>
+            <category>Changelog</category>
+        </item>
+        <item>
+            <title><![CDATA[GPT-4o 模型上线更新日志]]></title>
+            <link>https://zweixin798.github.io/modern-documentation/blog/gpt-4o-release-notes</link>
+            <guid>https://zweixin798.github.io/modern-documentation/blog/gpt-4o-release-notes</guid>
+            <pubDate>Wed, 18 Mar 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[我们已在 AI Core 平台正式上线 GPT-4o 系列模型，并同步增强了多模态与函数调用体验。]]></description>
+            <content:encoded><![CDATA[<p>我们已在 <strong>AI Core</strong> 平台正式上线 <strong>GPT-4o</strong> 系列模型，并同步增强了多模态与函数调用体验。</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="新增能力">新增能力<a href="https://zweixin798.github.io/modern-documentation/blog/gpt-4o-release-notes#%E6%96%B0%E5%A2%9E%E8%83%BD%E5%8A%9B" class="hash-link" aria-label="Direct link to 新增能力" title="Direct link to 新增能力" translate="no">​</a></h2>
+<ul>
+<li class=""><strong>更强的对话质量</strong>：在长上下文下的指令遵循与表达更稳定。</li>
+<li class=""><strong>更顺滑的工具调用</strong>：函数调用（tool calls）输出更结构化，更适合与工作流编排结合。</li>
+<li class=""><strong>更友好的工程集成</strong>：API 兼容 <code>POST /v1/chat/completions</code>，更易迁移与替换。</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="兼容性说明">兼容性说明<a href="https://zweixin798.github.io/modern-documentation/blog/gpt-4o-release-notes#%E5%85%BC%E5%AE%B9%E6%80%A7%E8%AF%B4%E6%98%8E" class="hash-link" aria-label="Direct link to 兼容性说明" title="Direct link to 兼容性说明" translate="no">​</a></h2>
+<ul>
+<li class=""><strong>API 路径</strong>：保持 <code>/v1/chat/completions</code>。</li>
+<li class=""><strong>参数</strong>：<code>messages</code>、<code>temperature</code>、<code>max_tokens</code> 等保持一致；新增/增强 <code>tools</code> 与 <code>tool_choice</code> 的使用体验。</li>
+<li class=""><strong>响应</strong>：在触发工具调用时，<code>finish_reason</code> 可能为 <code>tool_calls</code>，并返回 <code>tool_calls</code> 结构。</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="建议升级方式">建议升级方式<a href="https://zweixin798.github.io/modern-documentation/blog/gpt-4o-release-notes#%E5%BB%BA%E8%AE%AE%E5%8D%87%E7%BA%A7%E6%96%B9%E5%BC%8F" class="hash-link" aria-label="Direct link to 建议升级方式" title="Direct link to 建议升级方式" translate="no">​</a></h2>
+<ol>
+<li class="">先在灰度环境切换 <code>model</code> 为 <code>gpt-4o</code> 或 <code>gpt-4o-mini</code>。</li>
+<li class="">对关键任务启用 <strong>结构化输出</strong>（JSON Schema）并添加校验。</li>
+<li class="">若你使用 RAG，请同时监控“检索命中率”和“引用一致性”，避免高召回但低相关导致误答。</li>
+</ol>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="下一步">下一步<a href="https://zweixin798.github.io/modern-documentation/blog/gpt-4o-release-notes#%E4%B8%8B%E4%B8%80%E6%AD%A5" class="hash-link" aria-label="Direct link to 下一步" title="Direct link to 下一步" translate="no">​</a></h2>
 <ul>
 <li class="">我们会在后续版本补齐更多 SDK 示例与最佳实践（Prompt 规范、工具调用模式、RAG 评测方法）。</li>
 </ul>]]></content:encoded>
@@ -41,8 +151,8 @@
         </item>
         <item>
             <title><![CDATA[Welcome]]></title>
-            <link>https://zweixin798.github.io/modern-documentation/blog/welcome/</link>
-            <guid>https://zweixin798.github.io/modern-documentation/blog/welcome/</guid>
+            <link>https://zweixin798.github.io/modern-documentation/blog/welcome</link>
+            <guid>https://zweixin798.github.io/modern-documentation/blog/welcome</guid>
             <pubDate>Thu, 26 Aug 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[Docusaurus blogging features are powered by the blog plugin.]]></description>
             <content:encoded><![CDATA[<p><a href="https://docusaurus.io/docs/blog" target="_blank" rel="noopener noreferrer" class="">Docusaurus blogging features</a> are powered by the <a href="https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog" target="_blank" rel="noopener noreferrer" class="">blog plugin</a>.</p>
@@ -64,8 +174,8 @@
         </item>
         <item>
             <title><![CDATA[MDX Blog Post]]></title>
-            <link>https://zweixin798.github.io/modern-documentation/blog/mdx-blog-post/</link>
-            <guid>https://zweixin798.github.io/modern-documentation/blog/mdx-blog-post/</guid>
+            <link>https://zweixin798.github.io/modern-documentation/blog/mdx-blog-post</link>
+            <guid>https://zweixin798.github.io/modern-documentation/blog/mdx-blog-post</guid>
             <pubDate>Sun, 01 Aug 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[Blog posts support Docusaurus Markdown features, such as MDX.]]></description>
             <content:encoded><![CDATA[<p>Blog posts support <a href="https://docusaurus.io/docs/markdown-features" target="_blank" rel="noopener noreferrer" class="">Docusaurus Markdown features</a>, such as <a href="https://mdxjs.com/" target="_blank" rel="noopener noreferrer" class="">MDX</a>.</p>
@@ -78,8 +188,8 @@
         </item>
         <item>
             <title><![CDATA[Long Blog Post]]></title>
-            <link>https://zweixin798.github.io/modern-documentation/blog/long-blog-post/</link>
-            <guid>https://zweixin798.github.io/modern-documentation/blog/long-blog-post/</guid>
+            <link>https://zweixin798.github.io/modern-documentation/blog/long-blog-post</link>
+            <guid>https://zweixin798.github.io/modern-documentation/blog/long-blog-post</guid>
             <pubDate>Wed, 29 May 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[This is the summary of a very long blog post,]]></description>
             <content:encoded><![CDATA[<p>This is the summary of a very long blog post,</p>
@@ -105,8 +215,8 @@
         </item>
         <item>
             <title><![CDATA[AI Core Docs 文档体系正式上线]]></title>
-            <link>https://zweixin798.github.io/modern-documentation/blog/ai-core-docs-launch/</link>
-            <guid>https://zweixin798.github.io/modern-documentation/blog/ai-core-docs-launch/</guid>
+            <link>https://zweixin798.github.io/modern-documentation/blog/ai-core-docs-launch</link>
+            <guid>https://zweixin798.github.io/modern-documentation/blog/ai-core-docs-launch</guid>
             <pubDate>Tue, 28 May 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[我们正式上线了 AI Core Docs —— 一套为大模型 / AI 产品打造的现代化文档体系，包括：]]></description>
             <content:encoded><![CDATA[<p>我们正式上线了 <strong>AI Core Docs</strong> —— 一套为大模型 / AI 产品打造的现代化文档体系，包括：</p>
@@ -116,7 +226,7 @@
 <li class="">更新日志与运营内容（Blog）</li>
 </ul>
 <p>文档站点基于 <strong>Docusaurus v3 + Tailwind CSS + OpenAPI</strong> 搭建，完全遵循 <strong>Docs-as-Code</strong> 思路，所有内容都通过 Git + Pull Request 管理。</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="为什么要重做文档体系">为什么要重做文档体系？<a href="https://zweixin798.github.io/modern-documentation/blog/ai-core-docs-launch/#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E9%87%8D%E5%81%9A%E6%96%87%E6%A1%A3%E4%BD%93%E7%B3%BB" class="hash-link" aria-label="Direct link to 为什么要重做文档体系？" title="Direct link to 为什么要重做文档体系？" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="为什么要重做文档体系">为什么要重做文档体系？<a href="https://zweixin798.github.io/modern-documentation/blog/ai-core-docs-launch#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E9%87%8D%E5%81%9A%E6%96%87%E6%A1%A3%E4%BD%93%E7%B3%BB" class="hash-link" aria-label="Direct link to 为什么要重做文档体系？" title="Direct link to 为什么要重做文档体系？" translate="no">​</a></h2>
 <ul>
 <li class=""><strong>大模型产品节奏快</strong>：能力更新频繁，传统 wiki 很难保持“最新可信”。</li>
 <li class=""><strong>开发者期望更高</strong>：需要清晰的 API 参考、示例代码和最佳实践，而不仅是零散说明。</li>
@@ -129,7 +239,7 @@
 <li class="">用 <strong>OpenAPI</strong> 自动生成 API 参考；</li>
 <li class="">用 <strong>GitHub Pages</strong> 做静态部署。</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="文档站点结构一览">文档站点结构一览<a href="https://zweixin798.github.io/modern-documentation/blog/ai-core-docs-launch/#%E6%96%87%E6%A1%A3%E7%AB%99%E7%82%B9%E7%BB%93%E6%9E%84%E4%B8%80%E8%A7%88" class="hash-link" aria-label="Direct link to 文档站点结构一览" title="Direct link to 文档站点结构一览" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="文档站点结构一览">文档站点结构一览<a href="https://zweixin798.github.io/modern-documentation/blog/ai-core-docs-launch#%E6%96%87%E6%A1%A3%E7%AB%99%E7%82%B9%E7%BB%93%E6%9E%84%E4%B8%80%E8%A7%88" class="hash-link" aria-label="Direct link to 文档站点结构一览" title="Direct link to 文档站点结构一览" translate="no">​</a></h2>
 <ul>
 <li class=""><code>/docs</code>：用户指南与产品手册<!-- -->
 <ul>
@@ -152,7 +262,7 @@
 </ul>
 </li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="docs-as-code-工作流">Docs-as-Code 工作流<a href="https://zweixin798.github.io/modern-documentation/blog/ai-core-docs-launch/#docs-as-code-%E5%B7%A5%E4%BD%9C%E6%B5%81" class="hash-link" aria-label="Direct link to Docs-as-Code 工作流" title="Direct link to Docs-as-Code 工作流" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="docs-as-code-工作流">Docs-as-Code 工作流<a href="https://zweixin798.github.io/modern-documentation/blog/ai-core-docs-launch#docs-as-code-%E5%B7%A5%E4%BD%9C%E6%B5%81" class="hash-link" aria-label="Direct link to Docs-as-Code 工作流" title="Direct link to Docs-as-Code 工作流" translate="no">​</a></h2>
 <ul>
 <li class="">文档内容全部存放在仓库中：<!-- -->
 <ul>
@@ -175,7 +285,7 @@
 </ul>
 </li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="接下来我们会做什么">接下来我们会做什么？<a href="https://zweixin798.github.io/modern-documentation/blog/ai-core-docs-launch/#%E6%8E%A5%E4%B8%8B%E6%9D%A5%E6%88%91%E4%BB%AC%E4%BC%9A%E5%81%9A%E4%BB%80%E4%B9%88" class="hash-link" aria-label="Direct link to 接下来我们会做什么？" title="Direct link to 接下来我们会做什么？" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="接下来我们会做什么">接下来我们会做什么？<a href="https://zweixin798.github.io/modern-documentation/blog/ai-core-docs-launch#%E6%8E%A5%E4%B8%8B%E6%9D%A5%E6%88%91%E4%BB%AC%E4%BC%9A%E5%81%9A%E4%BB%80%E4%B9%88" class="hash-link" aria-label="Direct link to 接下来我们会做什么？" title="Direct link to 接下来我们会做什么？" translate="no">​</a></h2>
 <ul>
 <li class="">补充完整的 <strong>Quickstart</strong> 与 <strong>RAG / Prompt Engineering 指南</strong></li>
 <li class="">基于真实后端 OpenAPI 替换当前 Mock <code>openapi.yaml</code></li>

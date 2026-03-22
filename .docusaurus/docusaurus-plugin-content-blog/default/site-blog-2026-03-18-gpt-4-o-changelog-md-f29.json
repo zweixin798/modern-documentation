@@ -41,6 +41,10 @@
     ]
   },
   "unlisted": false,
+  "prevItem": {
+    "title": "GPT-4o 模型上线更新日志",
+    "permalink": "/modern-documentation/blog/gpt-4o-release-notes"
+  },
   "nextItem": {
     "title": "Welcome",
     "permalink": "/modern-documentation/blog/welcome"

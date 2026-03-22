@@ -2,7 +2,6 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
-
 import Heading from '@theme/Heading';
 
 function HomepageHeader() {
@@ -19,7 +18,7 @@ function HomepageHeader() {
         <div className="mx-auto max-w-3xl text-center">
           <div className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white/70 px-3 py-1 text-xs font-medium text-slate-700 shadow-sm backdrop-blur dark:border-slate-800 dark:bg-slate-950/30 dark:text-slate-200">
             <span className="h-1.5 w-1.5 rounded-full bg-emerald-500" />
-            Docs-as-Code · OpenAPI · Tailwind
+            Docs-as-Code · Philosophy · AI Insights
           </div>
 
           <Heading as="h1" className="mt-5 text-4xl font-semibold tracking-tight text-slate-900 dark:text-white sm:text-5xl">
@@ -35,18 +34,13 @@ function HomepageHeader() {
               className="inline-flex w-full items-center justify-center rounded-xl bg-slate-900 px-5 py-3 text-sm font-semibold text-white shadow-card transition hover:bg-slate-800 dark:bg-white dark:text-slate-900 dark:hover:bg-slate-100 sm:w-auto"
               to="/docs/intro"
             >
-              Start with the Guide
-            </Link>
-            <Link
-              className="inline-flex w-full items-center justify-center rounded-xl border border-slate-200 bg-white/70 px-5 py-3 text-sm font-semibold text-slate-900 shadow-sm transition hover:bg-white dark:border-slate-800 dark:bg-slate-950/30 dark:text-slate-100 dark:hover:bg-slate-900/30 sm:w-auto"
-              to="/api"
-            >
-              Explore the API Reference
+              Start Reading
             </Link>
           </div>
         </div>
 
         <div className="mx-auto mt-10 grid max-w-5xl gap-4 sm:mt-12 sm:grid-cols-2">
+          {/* 文档卡片 */}
           <Link
             className="group rounded-2xl border border-slate-200 bg-white/70 p-5 shadow-card backdrop-blur transition hover:-translate-y-0.5 hover:bg-white dark:border-slate-800 dark:bg-slate-950/30 dark:hover:bg-slate-900/30"
             to="/docs/intro"
@@ -54,10 +48,10 @@ function HomepageHeader() {
             <div className="flex items-start justify-between gap-4">
               <div>
                 <div className="text-sm font-semibold text-slate-900 dark:text-white">
-                  User Guide
+                  Knowledge Base
                 </div>
                 <div className="mt-2 text-sm leading-relaxed text-slate-600 dark:text-slate-300">
-                  Quickstart, core concepts (RAG / prompt engineering), and FAQs—written for builders.
+                  Explorations in Philosophy of Science, AI Interpretability, and Product Management.
                 </div>
               </div>
               <div className="mt-0.5 rounded-xl border border-slate-200 bg-white px-2 py-1 text-xs font-medium text-slate-700 dark:border-slate-800 dark:bg-slate-900 dark:text-slate-200">
@@ -65,29 +59,30 @@ function HomepageHeader() {
               </div>
             </div>
             <div className="mt-4 text-xs font-medium text-slate-500 dark:text-slate-400">
-              Get started → 
+              Explore Docs → 
             </div>
           </Link>
 
+          {/* 博客卡片（替换了原来的 API 卡片） */}
           <Link
             className="group rounded-2xl border border-slate-200 bg-white/70 p-5 shadow-card backdrop-blur transition hover:-translate-y-0.5 hover:bg-white dark:border-slate-800 dark:bg-slate-950/30 dark:hover:bg-slate-900/30"
-            to="/api"
+            to="/blog"
           >
             <div className="flex items-start justify-between gap-4">
               <div>
                 <div className="text-sm font-semibold text-slate-900 dark:text-white">
-                  API Reference
+                  Latest Blog
                 </div>
                 <div className="mt-2 text-sm leading-relaxed text-slate-600 dark:text-slate-300">
-                  OpenAPI-powered reference with parameters, responses, and ready-to-copy request examples.
+                  Reflections on Vibe Coding, technical workflows, and the future of AI development.
                 </div>
               </div>
               <div className="mt-0.5 rounded-xl border border-slate-200 bg-white px-2 py-1 text-xs font-medium text-slate-700 dark:border-slate-800 dark:bg-slate-900 dark:text-slate-200">
-                /api
+                /blog
               </div>
             </div>
             <div className="mt-4 text-xs font-medium text-slate-500 dark:text-slate-400">
-              View endpoints → 
+              Read Posts → 
             </div>
           </Link>
         </div>
@@ -101,7 +96,7 @@ export default function Home() {
   return (
     <Layout
       title={siteConfig.title}
-      description="AI Core Docs: modern documentation for your AI platform.">
+      description="Modern documentation for AI-integrated workflows and philosophy.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

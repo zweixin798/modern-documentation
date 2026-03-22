@@ -16,14 +16,5 @@
     "title": "Prompt Engineering Guide",
     "sidebar_position": 2,
     "description": "Learn practical prompt patterns, and how to reduce hallucinations."
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Tutorial Intro",
-    "permalink": "/modern-documentation/docs/intro"
-  },
-  "next": {
-    "title": "Tutorial - Basics",
-    "permalink": "/modern-documentation/docs/category/tutorial---basics"
   }
 }

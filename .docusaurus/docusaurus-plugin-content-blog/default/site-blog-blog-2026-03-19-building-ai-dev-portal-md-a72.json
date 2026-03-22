@@ -7,21 +7,27 @@
   "date": "2026-03-19T00:00:00.000Z",
   "tags": [
     {
-      "inline": true,
-      "label": "changelog",
-      "permalink": "/modern-documentation/blog/tags/changelog"
+      "inline": false,
+      "label": "Changelog",
+      "permalink": "/modern-documentation/blog/tags/changelog",
+      "description": "Release notes and product updates"
     }
   ],
   "readingTime": 1,
   "hasTruncateMarker": true,
   "authors": [
     {
-      "name": "Weixin Zhang",
-      "title": "AI Enthusiast / Graduate Student",
+      "name": "Zhang Weixin",
+      "title": "Maintainer",
       "url": "https://github.com/zweixin798",
+      "page": {
+        "permalink": "/modern-documentation/blog/authors/zweixin-798"
+      },
+      "socials": {
+        "github": "https://github.com/zweixin798"
+      },
       "imageURL": "https://github.com/zweixin798.png",
-      "key": "zweixin798",
-      "page": null
+      "key": "zweixin798"
     }
   ],
   "frontMatter": {
@@ -38,5 +44,9 @@
   "prevItem": {
     "title": "🛠️ Vibe Coding 主流工具特性全集",
     "permalink": "/modern-documentation/blog/vibecoding工具intro"
+  },
+  "nextItem": {
+    "title": "GPT-4o 模型上线更新日志",
+    "permalink": "/modern-documentation/blog/gpt-4o-release-notes"
   }
 }

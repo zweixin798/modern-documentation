@@ -30,7 +30,6 @@ export default {
   },
   "url": "https://zweixin798.github.io",
   "baseUrl": "/modern-documentation/",
-  "trailingSlash": true,
   "organizationName": "zweixin798",
   "projectName": "modern-documentation",
   "onBrokenLinks": "throw",
@@ -60,38 +59,6 @@ export default {
       }
     ]
   ],
-  "themes": [
-    "docusaurus-theme-openapi-docs"
-  ],
-  "plugins": [
-    [
-      "docusaurus-plugin-openapi-docs",
-      {
-        "id": "openapi",
-        "docsPluginId": "classic",
-        "config": {
-          "ai-core": {
-            "specPath": "openapi.yaml",
-            "outputDir": "api",
-            "sidebarOptions": {
-              "groupPathsBy": "tag"
-            }
-          }
-        }
-      }
-    ],
-    [
-      "@docusaurus/plugin-content-docs",
-      {
-        "id": "api",
-        "path": "api",
-        "routeBasePath": "api",
-        "sidebarPath": "./api/sidebar.ts",
-        "docItemComponent": "@theme/ApiItem"
-      }
-    ],
-    null
-  ],
   "themeConfig": {
     "image": "img/docusaurus-social-card.jpg",
     "navbar": {
@@ -105,16 +72,11 @@ export default {
           "type": "docSidebar",
           "sidebarId": "tutorialSidebar",
           "position": "left",
-          "label": "指南"
-        },
-        {
-          "to": "/api",
-          "label": "API 参考",
-          "position": "left"
+          "label": "Docs"
         },
         {
           "to": "/blog",
-          "label": "更新日志",
+          "label": "Blog",
           "position": "left"
         },
         {
@@ -383,6 +345,8 @@ export default {
     "static"
   ],
   "customFields": {},
+  "plugins": [],
+  "themes": [],
   "scripts": [],
   "headTags": [],
   "stylesheets": [],

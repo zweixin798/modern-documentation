@@ -4,5 +4,4 @@ export default [
   require("/Users/zhangweixin/Documents/modern-documentation/node_modules/@docusaurus/theme-classic/lib/prism-include-languages"),
   require("/Users/zhangweixin/Documents/modern-documentation/node_modules/@docusaurus/theme-classic/lib/nprogress"),
   require("/Users/zhangweixin/Documents/modern-documentation/src/css/custom.css"),
-  require("/Users/zhangweixin/Documents/modern-documentation/node_modules/docusaurus-theme-openapi-docs/lib/theme/styles.scss"),
 ];

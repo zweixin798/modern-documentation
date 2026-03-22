@@ -2,6 +2,18 @@
   "title": "Recent posts",
   "items": [
     {
+      "title": "🛠️ Vibe Coding 主流工具特性全集",
+      "permalink": "/modern-documentation/blog/vibecoding工具intro",
+      "unlisted": false,
+      "date": "2026-03-22T08:42:45.000Z"
+    },
+    {
+      "title": "GPT-4o 模型上线更新日志",
+      "permalink": "/modern-documentation/blog/gpt-4o-release-notes",
+      "unlisted": false,
+      "date": "2026-03-19T00:00:00.000Z"
+    },
+    {
       "title": "GPT-4o 模型上线更新日志",
       "permalink": "/modern-documentation/blog/gpt-4o-release-notes",
       "unlisted": false,
@@ -18,18 +30,6 @@
       "permalink": "/modern-documentation/blog/mdx-blog-post",
       "unlisted": false,
       "date": "2021-08-01T00:00:00.000Z"
-    },
-    {
-      "title": "Long Blog Post",
-      "permalink": "/modern-documentation/blog/long-blog-post",
-      "unlisted": false,
-      "date": "2019-05-29T00:00:00.000Z"
-    },
-    {
-      "title": "AI Core Docs 文档体系正式上线",
-      "permalink": "/modern-documentation/blog/ai-core-docs-launch",
-      "unlisted": false,
-      "date": "2019-05-28T00:00:00.000Z"
     }
   ]
 }

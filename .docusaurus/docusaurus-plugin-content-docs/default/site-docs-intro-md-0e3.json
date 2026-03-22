@@ -17,7 +17,7 @@
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "Prompt Engineering Guide",
-    "permalink": "/modern-documentation/docs/prompt-engineering-guide"
+    "title": "AI Workflow",
+    "permalink": "/modern-documentation/docs/concepts/ai-workflow"
   }
 }
