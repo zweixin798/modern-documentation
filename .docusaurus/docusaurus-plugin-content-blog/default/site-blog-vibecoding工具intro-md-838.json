@@ -1,0 +1,18 @@
+{
+  "permalink": "/modern-documentation/blog/vibecoding工具intro",
+  "editUrl": "https://github.com/zweixin798/modern-documentation/tree/main/blog/vibecoding工具intro.md",
+  "source": "@site/blog/vibecoding工具intro.md",
+  "title": "🛠️ Vibe Coding 主流工具特性全集",
+  "description": "本指南旨在帮助您快速了解当前最热门的 AI 编程（Vibe Coding）工具，并根据您的实际需求选择最合适的“法杖”。",
+  "date": "2026-03-20T02:22:28.395Z",
+  "tags": [],
+  "readingTime": 3.24,
+  "hasTruncateMarker": true,
+  "authors": [],
+  "frontMatter": {},
+  "unlisted": false,
+  "nextItem": {
+    "title": "GPT-4o 模型上线更新日志",
+    "permalink": "/modern-documentation/blog/gpt-4o-release-notes"
+  }
+}

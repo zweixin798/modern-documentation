@@ -1,0 +1,27 @@
+{
+  "id": "concepts/token-economics",
+  "title": "Token Economics",
+  "description": "1. Core Formula",
+  "source": "@site/docs/concepts/token-economics.mdx",
+  "sourceDirName": "concepts",
+  "slug": "/concepts/token-economics",
+  "permalink": "/modern-documentation/docs/concepts/token-economics",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/zweixin798/modern-documentation/tree/main/docs/concepts/token-economics.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "token-economics",
+    "title": "Token Economics"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "AI Workflow",
+    "permalink": "/modern-documentation/docs/concepts/ai-workflow"
+  },
+  "next": {
+    "title": "User Behavior",
+    "permalink": "/modern-documentation/docs/concepts/user-behavior"
+  }
+}

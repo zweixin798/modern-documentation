@@ -3,6 +3,41 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
+    path: '/modern-documentation/__docusaurus/debug/',
+    component: ComponentCreator('/modern-documentation/__docusaurus/debug/', '40c'),
+    exact: true
+  },
+  {
+    path: '/modern-documentation/__docusaurus/debug/config/',
+    component: ComponentCreator('/modern-documentation/__docusaurus/debug/config/', 'ad4'),
+    exact: true
+  },
+  {
+    path: '/modern-documentation/__docusaurus/debug/content/',
+    component: ComponentCreator('/modern-documentation/__docusaurus/debug/content/', '0c9'),
+    exact: true
+  },
+  {
+    path: '/modern-documentation/__docusaurus/debug/globalData/',
+    component: ComponentCreator('/modern-documentation/__docusaurus/debug/globalData/', 'c9f'),
+    exact: true
+  },
+  {
+    path: '/modern-documentation/__docusaurus/debug/metadata/',
+    component: ComponentCreator('/modern-documentation/__docusaurus/debug/metadata/', 'efa'),
+    exact: true
+  },
+  {
+    path: '/modern-documentation/__docusaurus/debug/registry/',
+    component: ComponentCreator('/modern-documentation/__docusaurus/debug/registry/', '810'),
+    exact: true
+  },
+  {
+    path: '/modern-documentation/__docusaurus/debug/routes/',
+    component: ComponentCreator('/modern-documentation/__docusaurus/debug/routes/', 'c99'),
+    exact: true
+  },
+  {
     path: '/modern-documentation/blog/',
     component: ComponentCreator('/modern-documentation/blog/', '7a5'),
     exact: true

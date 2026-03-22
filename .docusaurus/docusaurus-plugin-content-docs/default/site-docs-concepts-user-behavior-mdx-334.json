@@ -1,0 +1,27 @@
+{
+  "id": "concepts/user-behavior",
+  "title": "User Behavior",
+  "description": "1. 用户第一次使用 AI",
+  "source": "@site/docs/concepts/user-behavior.mdx",
+  "sourceDirName": "concepts",
+  "slug": "/concepts/user-behavior",
+  "permalink": "/modern-documentation/docs/concepts/user-behavior",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/zweixin798/modern-documentation/tree/main/docs/concepts/user-behavior.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "user-behavior",
+    "title": "User Behavior"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Token Economics",
+    "permalink": "/modern-documentation/docs/concepts/token-economics"
+  },
+  "next": {
+    "title": "Common Issues",
+    "permalink": "/modern-documentation/docs/faq/common-issues"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "vibe-coding-guide",
+  "title": "Vibe Coding 用户指南",
+  "description": "一份面向普通用户的 Vibe Coding 入门与实践指南",
+  "source": "@site/docs/user_guide.mdx",
+  "sourceDirName": ".",
+  "slug": "/vibe-coding-guide",
+  "permalink": "/modern-documentation/docs/vibe-coding-guide",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/zweixin798/modern-documentation/tree/main/docs/user_guide.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "vibe-coding-guide",
+    "title": "Vibe Coding 用户指南",
+    "description": "一份面向普通用户的 Vibe Coding 入门与实践指南"
+  }
+}

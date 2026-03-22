@@ -1,0 +1,27 @@
+{
+  "id": "faq/common-issues",
+  "title": "Common Issues",
+  "description": "",
+  "source": "@site/docs/faq/common-issues.mdx",
+  "sourceDirName": "faq",
+  "slug": "/faq/common-issues",
+  "permalink": "/modern-documentation/docs/faq/common-issues",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/zweixin798/modern-documentation/tree/main/docs/faq/common-issues.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "common-issues",
+    "title": "Common Issues"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "User Behavior",
+    "permalink": "/modern-documentation/docs/concepts/user-behavior"
+  },
+  "next": {
+    "title": "Quickstart",
+    "permalink": "/modern-documentation/docs/quickstart/"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "concepts/ai-workflow",
+  "title": "AI Workflow",
+  "description": "1. System Overview",
+  "source": "@site/docs/concepts/ai-workflow.mdx",
+  "sourceDirName": "concepts",
+  "slug": "/concepts/ai-workflow",
+  "permalink": "/modern-documentation/docs/concepts/ai-workflow",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/zweixin798/modern-documentation/tree/main/docs/concepts/ai-workflow.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "ai-workflow",
+    "title": "AI Workflow"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Tutorial Intro",
+    "permalink": "/modern-documentation/docs/intro"
+  },
+  "next": {
+    "title": "Token Economics",
+    "permalink": "/modern-documentation/docs/concepts/token-economics"
+  }
+}

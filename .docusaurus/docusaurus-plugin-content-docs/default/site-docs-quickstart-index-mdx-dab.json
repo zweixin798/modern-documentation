@@ -1,0 +1,23 @@
+{
+  "id": "quickstart/quickstart",
+  "title": "Quickstart",
+  "description": "",
+  "source": "@site/docs/quickstart/index.mdx",
+  "sourceDirName": "quickstart",
+  "slug": "/quickstart/",
+  "permalink": "/modern-documentation/docs/quickstart/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/zweixin798/modern-documentation/tree/main/docs/quickstart/index.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "quickstart",
+    "title": "Quickstart"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Common Issues",
+    "permalink": "/modern-documentation/docs/faq/common-issues"
+  }
+}

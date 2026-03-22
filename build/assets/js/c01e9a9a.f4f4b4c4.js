@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkai_core_docs=globalThis.webpackChunkai_core_docs||[]).push([[876],{9004(a){a.exports=JSON.parse('{"tags":[{"label":"changelog","permalink":"/modern-documentation/blog/tags/changelog","count":1}]}')}}]);
